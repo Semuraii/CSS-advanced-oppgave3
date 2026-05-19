@@ -130,6 +130,7 @@ nav a:hover {
 .title h2 { 
     color: var(--primary-color);
     font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-sm);
 }
 
 .container {
