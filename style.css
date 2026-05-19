@@ -124,5 +124,9 @@ nav a:hover {
     box-shadow: var(--glow-shadow);
 }
 
+section {
+    text-align: center;
+    margin-topp: var(--spacing-lg);
+}
 
 
