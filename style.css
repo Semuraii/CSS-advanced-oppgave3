@@ -169,3 +169,11 @@ nav a:hover {
     margin-bottom: var(--spacing-sm);
 }
 
+footer {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: var(--spacing-md);
+    border-top: 2px solid var(--primary-color);
+    margin-top: var(--spacing-lg);
+}
+
