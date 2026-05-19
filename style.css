@@ -82,6 +82,8 @@ nav a:hover {
     background: url(images/dead-by-daylight-main.jpg) center/cover no-repeat;
     height: 80vh;
     display: flex;
+    text-align: center;
+
 }
 
 
