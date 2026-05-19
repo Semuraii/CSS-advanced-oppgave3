@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .character-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px) scale(1.03);
     box-shadow: var(--card-shadow);
 }
 
@@ -164,5 +164,9 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
    transition: transform var(--transition-slow);
+}
+
+.character-card:hover img {
+    transform: scale(1.08);
 }
 
