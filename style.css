@@ -174,3 +174,8 @@ nav a:hover {
     padding: var(--spacing-sm);
 }
 
+.card-content h3 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
