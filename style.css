@@ -154,3 +154,9 @@ section h2 {
     box-shadow: var(--card-shadow);
 }
 
+.card img {
+    width: 100%;
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+}
+
