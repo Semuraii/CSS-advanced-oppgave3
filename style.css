@@ -107,5 +107,14 @@ nav a:hover {
     }
 }
 
+.btn {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
 
 
