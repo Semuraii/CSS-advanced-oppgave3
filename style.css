@@ -201,3 +201,8 @@ footer {
     pointer-events: none;
     animation: fogMove 20s linear infinite;
 }
+
+@keyframes fadeMove {
+    0% { opacity: 0; transform: translateY(20px); }
+    50% { opacity: 0.5; transform: translateY(-10px); }
+}
