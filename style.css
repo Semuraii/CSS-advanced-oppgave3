@@ -90,5 +90,11 @@ nav a:hover {
     padding: var(--spacing-lg);
 }
 
+.fade-text {
+    font-size: var(--font-size-xl);
+    color: var(--primary-color);
+    animation: fadeIn 2s ease-in-out;
+}
+
 
 
