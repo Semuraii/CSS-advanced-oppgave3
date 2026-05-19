@@ -78,5 +78,11 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
+.hero {
+    background: url(images/dead-by-daylight-main.jpg) center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+}
+
 
 
