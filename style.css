@@ -147,6 +147,7 @@ nav a:hover {
     border-radius: var(--radius-md);
     transition: all var(--transition-slow) ease;
     min-height: 550px;
+    overflow: hidden;
 }
 
 .character-card:hover {
@@ -159,6 +160,8 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
    transition: transform var(--transition-slow);
+   display: block;
+   object-position: top;
 }
 
 .character-card:hover img {
