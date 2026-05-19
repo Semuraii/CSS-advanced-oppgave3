@@ -149,3 +149,8 @@ section h2 {
     transition: var(--transition-medium);
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow);
+}
+
