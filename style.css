@@ -59,5 +59,12 @@ header {
     text-shadow: var(--glow-shadow);
 }
 
+nav ul { 
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-md);
+    
+}
+
 
 
