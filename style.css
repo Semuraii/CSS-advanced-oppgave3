@@ -135,4 +135,10 @@ section h2 {
     margin-bottom: var(--spacing-sm);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+}
 
