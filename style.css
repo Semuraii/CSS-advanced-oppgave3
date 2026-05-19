@@ -199,4 +199,5 @@ footer {
     height: 100%;
     background-color: linear-gradient(90deg, transparent, var(--fog-color), transparent);
     pointer-events: none;
+    animation: fogMove 20s linear infinite;
 }
