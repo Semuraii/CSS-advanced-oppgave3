@@ -69,7 +69,7 @@ nav ul {
 nav a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     transition: var(--transition-slow);
 }
 
