@@ -83,7 +83,7 @@ nav a:hover {
     height: 80vh;
     display: flex;
     text-align: center;
-
+    align-items: center;
 }
 
 
