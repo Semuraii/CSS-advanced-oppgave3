@@ -62,7 +62,8 @@ header {
 nav ul { 
     list-style: none;
     display: flex;
-    gap: var(--spacing-md); 
+    gap: var(--spacing-md);
+    justify-content: center; 
 }
 
 nav a {
