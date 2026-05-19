@@ -51,5 +51,12 @@ header {
     border-bottom: 2px solid var(--primary-color);
 }
 
+.logo { 
+    font-size: var(--font-size-xl);
+    color: var(--primary-color);
+    text-shadow: var(--glow-shadow);
+    transform: skew(-8deg);
+}
+
 
 
