@@ -146,19 +146,20 @@ nav a:hover {
     margin: var(--spacing-md) auto;
 }
 
-.card {
+.character-card {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
-    transition: var(--transition-medium);
+    transition: all var(--transition-medium) ease;
+    min-height: 550px;
 }
 
-.card:hover {
+.character-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--card-shadow);
 }
 
-.card img {
+.character-card img {
     width: 100%;
     border-top-left-radius: var(--radius-md);
     border-top-right-radius: var(--radius-md);
