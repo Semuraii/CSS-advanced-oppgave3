@@ -114,6 +114,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     transition: var(--transition-fast);
+    border-radius: var(--radius-sm);
 }
 
 .btn:hover {
