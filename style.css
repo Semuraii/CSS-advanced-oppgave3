@@ -129,4 +129,10 @@ section {
     margin-top: var(--spacing-lg);
 }
 
+section h2 { 
+    font-size: var(--font-size-lg);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+}
+
 
