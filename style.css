@@ -102,6 +102,11 @@ nav a:hover {
     animation: fadeMove 3s ease;
 }
 
+.overlay p {
+    margin-top: var(--spacing-md);
+    font-size: var(--font-size-lg);
+}
+
 
 .btn {
     margin-top: var(--spacing-md);
