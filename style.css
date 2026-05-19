@@ -142,7 +142,8 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-md);
-    padding: var(--spacing-sm);
+    width: 90%;
+    margin: var(--spacing-md) auto;
 }
 
 .card {
