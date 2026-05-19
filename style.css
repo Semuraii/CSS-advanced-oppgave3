@@ -115,6 +115,7 @@ nav a:hover {
     cursor: pointer;
     transition: var(--transition-fast);
     border-radius: var(--radius-sm);
+    font-size: var(--font-size-lg);
 }
 
 .btn:hover {
