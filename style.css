@@ -79,6 +79,7 @@ nav a {
 nav a:hover { 
     color: var(--primary-color);
     letter-spacing: 1px;
+    transform: scale(1.1);
 }
 
 .hero {
@@ -98,7 +99,7 @@ nav a:hover {
 .fade-text {
     font-size: var(--font-size-xl);
     color: var(--primary-color);
-    animation: fadeMove 2s ease;
+    animation: fadeMove 3s ease;
 }
 
 
