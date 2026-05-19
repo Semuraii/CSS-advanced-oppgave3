@@ -42,6 +42,7 @@ body {
     color: var(--text-color);
     font-size: var(--font-size-base);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 header { 
@@ -57,6 +58,7 @@ header {
     text-shadow: var(--glow-shadow);
     transform: skew(-8deg);
     text-shadow: var(--glow-shadow);
+    animation: fadeMove 2s ease;
 }
 
 nav ul { 
@@ -64,13 +66,14 @@ nav ul {
     display: flex;
     gap: var(--spacing-md);
     justify-content: center; 
+    margin-top: var(--spacing-sm);
 }
 
 nav a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: var(--font-size-md);
     transition: var(--transition-fast);
+    display: inline-block;
 }
 
 nav a:hover { 
