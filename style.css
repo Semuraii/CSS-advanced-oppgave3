@@ -70,7 +70,7 @@ nav a {
     color: var(--text-color);
     text-decoration: none;
     font-size: var(--font-size-md);
-    transition: var(--transition-slow);
+    transition: var(--transition-fast);
 }
 
 
