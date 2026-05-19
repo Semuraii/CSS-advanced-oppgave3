@@ -84,16 +84,18 @@ nav a:hover {
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .overlay {
     padding: var(--spacing-lg);
+    max-width: 700px;
 }
 
 .fade-text {
     font-size: var(--font-size-xl);
     color: var(--primary-color);
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeMove 2s ease;
 }
 
 @keyframes fadeMove {
@@ -117,20 +119,21 @@ nav a:hover {
     border-radius: var(--radius-sm);
     font-size: var(--font-size-base);
     color: var(--text-color);
+    animation: pulse 2s infinite;
 }
 
 .btn:hover {
     background-color: var(--secondary-color);
     box-shadow: var(--glow-shadow);
+    transform: scale(1.1) rotate(-2deg);
 }
 
-section {
+.title {
     text-align: center;
     margin-top: var(--spacing-lg);
 }
 
-section h2 { 
-    font-size: var(--font-size-lg);
+.title h2 { 
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
 }
