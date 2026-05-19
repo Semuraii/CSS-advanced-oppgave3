@@ -116,5 +116,10 @@ nav a:hover {
     transition: var(--transition-fast);
 }
 
+.btn:hover {
+    background-color: var(--secondary-color);
+    box-shadow: var(--glow-shadow);
+}
+
 
 
