@@ -48,7 +48,7 @@ header {
     background-color: var(--background-color);
     text-align: center;
     padding: var(--spacing-md);
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 
 
