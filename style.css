@@ -62,8 +62,14 @@ header {
 nav ul { 
     list-style: none;
     display: flex;
-    gap: var(--spacing-md);
-    
+    gap: var(--spacing-md); 
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: var(--font-size-lg);
+    transition: var(--transition-slow);
 }
 
 
