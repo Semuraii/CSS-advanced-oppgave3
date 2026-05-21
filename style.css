@@ -68,10 +68,15 @@ header, main, footer {
 }
 
 header { 
-    background-color: var(--background-color);
+    background-color: rgba(0,0,0,0.7);
     text-align: center;
     padding: var(--spacing-md);
     border-bottom: 2px solid var(--primary-color);
+
+    position: sticky;
+    top: 0;
+
+    backdrop-filter: blur(5px);
 }
 
 .logo { 
