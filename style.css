@@ -220,12 +220,19 @@ footer {
 .fog {
     position: fixed;
     top: 0;
-    left: -100%;
-    width: 300%;
-    height: 100%;
-    background-color: linear-gradient(90deg, transparent, var(--fog-color), transparent);
+    left: 0;
+    width: 200%;
+    height: 100vh;
     pointer-events: none;
-    animation: fogMove 20s linear infinite;
+    z-index: 3;
+    will-change: transform;
+}
+
+.image01,
+.image02 {
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 
 @keyframes fadeMove {
