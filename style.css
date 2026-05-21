@@ -49,7 +49,7 @@ body {
 
 body::before {
     content: "";
-    position: fixed;
+    position: absolute;
     inset: 0;
 
     background:
