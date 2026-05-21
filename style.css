@@ -238,7 +238,12 @@ footer {
 #foglayer_01 .image01, #foglayer_01 .image02 {
     background: url(images/fog1.png) repeat-x;
     background-size: cover;
+}
 
+#foglayer_02 .image01, #foglayer_02 .image02,
+#foglayer_03 .image01, #foglayer_03 .image02 {
+    background: url(images/fog2.png) repeat-x;
+    background-size: cover;
 }
 
 @keyframes fadeMove {
