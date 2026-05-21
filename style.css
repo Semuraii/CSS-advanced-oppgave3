@@ -240,6 +240,11 @@ footer {
     background-size: cover;
 }
 
+#foglayer_01 {
+    opacity: 0.18;
+    animation: fogMove 30s linear infinite;
+}
+
 #foglayer_02 .image01, #foglayer_02 .image02,
 #foglayer_03 .image01, #foglayer_03 .image02 {
     background: url(images/fog2.png) repeat-x;
