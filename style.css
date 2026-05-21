@@ -275,8 +275,12 @@ footer {
 }
 
 @keyframes fogMove {
-    0% { left: -100%; }
-    100% { left: 100%; }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-33.333%);
+    }
 }
 
 @media (max-width: 900px) {
