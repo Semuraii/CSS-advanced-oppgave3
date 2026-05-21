@@ -235,6 +235,12 @@ footer {
     height: 100%;
 }
 
+#foglayer_01 .image01, #foglayer_01 .image02 {
+    background: url(images/fog1.png) repeat-x;
+    background-size: cover;
+
+}
+
 @keyframes fadeMove {
     0% { opacity: 0; transform: translateY(20px); }
     50% { opacity: 0.5; transform: translateY(-10px); }
