@@ -218,7 +218,7 @@ footer {
     top: 0;
     left: 0;
     width: 200%;
-    height: 100vh;
+    height: 100%;
     pointer-events: none;
     z-index: 3;
     will-change: transform;
