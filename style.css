@@ -222,7 +222,7 @@ footer {
     pointer-events: none;
     z-index: 3;
     will-change: transform;
-    overflow: hidden:
+    overflow: hidden;
 }
 
 .image01,
